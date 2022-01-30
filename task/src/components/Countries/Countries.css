@@ -1,0 +1,33 @@
+.country-container {
+  display: flex;
+  justify-content: center;
+}
+
+.country-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.country h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.country-data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
