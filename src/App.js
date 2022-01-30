@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get('http://api.worldbank.org/V2/incomeLevel/LIC/country?format=json')
+      .get('https://api.worldbank.org/V2/incomeLevel/LIC/country?format=json')
       .then((res) => {
         setList(res.data[1])
         console.log(res.data[1])
